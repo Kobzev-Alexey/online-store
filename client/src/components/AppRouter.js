@@ -7,7 +7,7 @@ import { SHOP_ROUTE } from "../utills/consts";
 const AppRouter = () => {
   const { user } = useContext(Context);
 
-  console.log(user);
+  console.log("123", user);
   return (
     <Routes>
       {user.isAuth &&
